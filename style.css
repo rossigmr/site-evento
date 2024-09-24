@@ -1,0 +1,284 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0;
+
+}
+
+.header-title {
+    font-size: 25px;
+    margin-right: 20px;
+    position: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    align-items: center;
+}
+
+body {
+    resize: both;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao-menu {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .botao-menu:hover {
+    background-color: #3700b3;
+    transform: translateY(-2px);
+  }
+  
+  .botao-menu:active {
+    background-color: #6200ea;
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .opcoes-cabecalho {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    margin-right: 20px;
+}
+
+.cabecalho {
+    letter-spacing: 1.5px;
+    margin-bottom: 45px;
+    border-bottom: 2px solid #6200ea;
+    padding-bottom: 5px;
+    background-color: #ffffff;
+    justify-content: space-between;
+  }
+
+  .fundo{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url(./img/agro.png);
+    background-position:initial;
+    height: auto;
+    width: auto;
+  }
+  
+  .texto-principal{
+    color: #6200ea;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .site-footer {
+    background-color: white;
+    color: #6200ea;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    color: #6200ea;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .tabela-programacao {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .tabela-programacao thead th {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tabela-programacao tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .tabela-programacao tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabela-programacao tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .tabela-programacao td, .tabela-programacao th {
+    text-align: left;
+  }
+  .inscrever-se-container {
+    background-color: #f4f4f9;
+    padding: 30px;
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .inscrever-se-container h2 {
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .form-inscricao label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    color: #555;
+  }
+  
+  .form-inscricao input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .btn-inscrever {
+    background-color: #6200ea;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-inscrever:hover {
+    background-color: #3700b3;
+  }
+  .contato-container {
+    background-color: #f4f4f9;
+    padding: 30px;
+    max-width: 500px;
+    margin: 50px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .contato-container h2 {
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .form-contato label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+    color: #555;
+  }
+  
+  .form-contato input,
+  .form-contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .form-contato textarea {
+    height: 100px; /* Altura específica para a área de texto */
+  }
+  
+  .btn-enviar {
+    background-color: #6200ea;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-enviar:hover {
+    background-color: #3700b3;
+  }
+  .palestrantes-container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .palestrantes-container h2 {
+    margin-bottom: 30px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .palestrante {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .palestrante:hover {
+    transform: scale(1.05);
+  }
+  
+  .palestrante h3 {
+    margin: 10px 0;
+    font-family: 'Arial', sans-serif;
+    color: #6200ea;
+  }
+  
+  .palestrante p {
+    color: #555;
+  }
+      
